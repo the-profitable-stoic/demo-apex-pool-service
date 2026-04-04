@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Apex Pool Service",
+    "phone": "555-poo-r92",
+    "category": "pool-service",
+    "city": "Miami",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pool-service-red-charge",
+      "categoryGroup": "pool-service",
+      "name": "Red Charge",
+      "recipeFile": "pool-service/red-charge.astro",
+      "colors": {
+        "primary": "#0891B2",
+        "primaryDark": "#164E63",
+        "primaryLight": "#c1e4ec",
+        "secondary": "#0783a0",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0891B2",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "pool-service/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Miami's Pool Care Experts",
+      "heroSubline": "Specializing in South Florida's unique pool maintenance needs. From saltwater systems to hurricane prep, we know these waters.",
+      "aboutTitle": "Built for Miami Pools",
+      "aboutText": [
+        "Founded in 2012 after Hurricane Wilma revealed gaps in local pool maintenance, Apex Pool Service brings 12 years of Miami-specific expertise. We've serviced everything from Art Deco district plunge pools to Coral Gables estate lagoons.",
+        "Our approach combines rigorous chemical testing with an understanding of how Florida's humidity accelerates equipment wear. We use corrosion-resistant parts and hurricane straps as standard practice.",
+        "When not maintaining pools, our team volunteers with Miami Waterkeeper to protect Biscayne Bay - because what surrounds your pool matters as much as what's in it."
+      ],
+      "valueProps": [
+        {
+          "title": "Saltwater Specialists",
+          "description": "We balance chemistry for coastal homes where salt air affects pool systems differently than inland properties."
+        },
+        {
+          "title": "Hurricane Prep",
+          "description": "Includes storm drain checks and equipment securing - critical for June-November in South Florida."
+        },
+        {
+          "title": "Concrete Expertise",
+          "description": "Most Miami pools are gunite. We know how to spot early cracking in our porous limestone substrate."
+        },
+        {
+          "title": "Tile Savvy",
+          "description": "From Brickell high-rises to Boca estates, we maintain the glass tile that's prone to etching in our hard water."
+        }
+      ],
+      "ctaHeadline": "Ready for Clearer Water?",
+      "ctaSubline": "Schedule your pool assessment today. We serve all Miami-Dade and Broward counties."
+    },
+    "services": [
+      {
+        "slug": "saltwater-pool-maintenance",
+        "name": "Saltwater Pool Maintenance",
+        "shortDescription": "Specialized care for coastal pools battling salt air corrosion.",
+        "description": "Miami's oceanfront properties face unique challenges with saltwater pool systems. The same sea breeze that cools your patio accelerates corrosion on heaters and ladder rails. We use titanium heat exchangers and marine-grade stainless steel hardware as standard.\n\nOur monthly service includes testing chlorine generator cells for salt buildup - a common issue when humidity causes rapid evaporation. We also check sacrificial anodes on equipment pads, which degrade faster here than inland. For pools near Biscayne Bay, we recommend quarterly acid washes to prevent scale from our mineral-rich groundwater.",
+        "process": [
+          "Step 1: Test salt levels and chlorine output with digital meter",
+          "Step 2: Inspect all metal components for pitting or galvanic corrosion",
+          "Step 3: Clean salt cell with diluted muriatic acid solution",
+          "Step 4: Apply anti-corrosion lubricant to o-rings and gaskets"
+        ],
+        "benefits": [
+          "Extends equipment lifespan in corrosive coastal air",
+          "Prevents cloudy water from improper chlorine generation",
+          "Reduces scaling on glass tile and coping stones",
+          "Maintains comfortable swimmer experience year-round"
+        ],
+        "faq": [
+          {
+            "question": "How often should salt cells be cleaned in Miami?",
+            "answer": "Every 2 months minimum - our humidity causes faster calcium buildup than drier climates. Waterfront homes may need monthly cleaning during summer."
+          },
+          {
+            "question": "Do you service commercial saltwater pools?",
+            "answer": "Yes, we maintain several South Beach hotel pools with systems up to 50,000 gallons. Commercial accounts receive after-hours service to avoid guest disruption."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-preparedness",
+        "name": "Hurricane Preparedness",
+        "shortDescription": "Storm-proof your pool before hurricane season hits.",
+        "description": "From June through November, Miami pools face wind damage and flooding risks. Our hurricane prep service goes beyond basic covers - we secure equipment pads with aircraft cable and install temporary overflow drains to prevent deck lifting.\n\nFor historic homes in Coconut Grove or Coral Gables, we document pool conditions with 360° photos for insurance purposes. Modern construction in Weston or Parkland often requires different approaches - we'll anchor automatic covers with hurricane straps rated for 150mph winds. Post-storm, our team prioritizes safety inspections to check for electrical hazards before restoring filtration.",
+        "process": [
+          "Step 1: Lower water level 12-18\" below normal operating level",
+          "Step 2: Secure pumps and heaters with galvanized steel straps",
+          "Step 3: Install temporary overflow pipes if no built-in drains exist",
+          "Step 4: Photograph entire pool area for pre-storm documentation"
+        ],
+        "benefits": [
+          "Prevents equipment from becoming windborne debris",
+          "Reduces risk of deck damage from hydrostatic pressure",
+          "Ensures faster post-storm recovery",
+          "Meets Miami-Dade County code requirements"
+        ],
+        "faq": [
+          {
+            "question": "When should I schedule hurricane prep?",
+            "answer": "By May 15th to beat the rush. We book completely by early June."
+          },
+          {
+            "question": "Do you offer emergency post-storm service?",
+            "answer": "Yes, existing clients get priority for safety inspections within 72 hours after evacuation orders lift."
+          }
+        ]
+      },
+      {
+        "slug": "gunite-repair",
+        "name": "Gunite Repair",
+        "shortDescription": "Structural repairs for Miami's concrete pools.",
+        "description": "South Florida's limestone substrate causes unique stress on gunite pools. We specialize in diagnosing cracks before they become major leaks - particularly important for older Coral Gables estates where shifting foundations are common.\n\nOur repair process uses polymer-modified cement that bonds better with existing gunite than standard mixes. For pools near the coast, we add corrosion inhibitors to the mix to combat salt penetration. Most repairs can be completed without draining, using underwater patching techniques perfected on Miami Beach high-rise pools. We color-match new plaster using local sand for seamless blends.",
+        "process": [
+          "Step 1: Pressure test to locate active leaks",
+          "Step 2: Chip out damaged areas with pneumatic tools",
+          "Step 3: Apply bonding agent and polymer-modified mortar",
+          "Step 4: Cure with moisture-retaining blankets for 72 hours"
+        ],
+        "benefits": [
+          "Prevents water loss in our drought-prone summers",
+          "Uses materials formulated for Florida's geology",
+          "Saves costly full replastering when caught early",
+          "Minimizes disruption to pool use"
+        ],
+        "faq": [
+          {
+            "question": "How long do gunite repairs last in Miami?",
+            "answer": "Our average repair lasts 5-7 years - twice as long as standard methods due to polymer additives that flex with ground movement."
+          },
+          {
+            "question": "Can you repair decorative tile mosaics?",
+            "answer": "Yes, we've restored historic Mediterranean-style tile work in Miami Shores and Venetian Pool areas since 2015."
+          }
+        ]
+      },
+      {
+        "slug": "glass-tile-cleaning",
+        "name": "Glass Tile Cleaning",
+        "description": "Boca Raton's luxury pools deserve spotless glass tile. Our specialized cleaning restores brilliance without damaging delicate surfaces.\n\nFlorida's hard water leaves stubborn scale on glass tile, especially in saltwater pools. We use pH-neutral cleaners and nylon brushes to preserve the tile's luster. For intricate mosaic work common in Palm Beach estates, we employ detail tools normally used for boat hulls. Annual cleaning prevents permanent etching from mineral deposits.",
+        "shortDescription": "Restore brilliance to luxury pool tile without damage.",
+        "process": [
+          "Step 1: Test tile for existing etching or glaze damage",
+          "Step 2: Apply descaling solution with precision applicators",
+          "Step 3: Gently agitate with oscillating nylon brushes",
+          "Step 4: Seal grout lines with penetrating sealer"
+        ],
+        "benefits": [
+          "Removes mineral deposits without scratching",
+          "Preserves investment in high-end tile work",
+          "Prevents permanent etching damage",
+          "Enhances water reflection for nighttime ambiance"
+        ],
+        "faq": [
+          {
+            "question": "How often should glass tile be cleaned?",
+            "answer": "Every 6 months for saltwater pools, annually for freshwater systems. Waterfront homes may need quarterly attention."
+          },
+          {
+            "question": "Can you match discontinued tile colors?",
+            "answer": "Our supplier network specializes in finding matches for imported glass tile common in South Florida luxury pools."
+          }
+        ]
+      },
+      {
+        "slug": "pool-deck-resurfacing",
+        "name": "Pool Deck Resurfacing",
+        "shortDescription": "Cooler, safer surfaces for Miami's scorching pool decks.",
+        "description": "Traditional concrete decking in Fort Lauderdale can reach 140°F in summer - we install heat-reflective coatings that stay walkable even in August. Our textured finishes provide slip resistance without the abrasiveness of exposed aggregate.\n\nFor historic districts like Las Olas Isles, we replicate original scored patterns while upgrading to modern materials. Modern developments in Weston benefit from our seamless spray coatings that eliminate tripping hazards from uneven pavers. All our resurfacing includes proper slope verification to prevent standing water - crucial in our rainy season.",
+        "process": [
+          "Step 1: Pressure wash to remove all previous coatings",
+          "Step 2: Repair cracks with flexible polymer concrete",
+          "Step 3: Apply primer and heat-reflective base coat",
+          "Step 4: Broadcast non-slip aggregate while wet"
+        ],
+        "benefits": [
+          "Surface temperatures up to 35°F cooler than bare concrete",
+          "Eliminates standing water breeding mosquitoes",
+          "Maintains historic character where required",
+          "5-year warranty against peeling or fading"
+        ],
+        "faq": [
+          {
+            "question": "How long must the deck stay dry after resurfacing?",
+            "answer": "48 hours minimum - we schedule these projects during our driest months (December-April) whenever possible."
+          },
+          {
+            "question": "Can you match my existing pavers?",
+            "answer": "Yes, we maintain samples from all major South Florida paver manufacturers going back to 1990s developments."
+          }
+        ]
+      },
+      {
+        "slug": "smart-pool-upgrades",
+        "name": "Smart Pool Upgrades",
+        "shortDescription": "Modern automation for South Florida pools.",
+        "description": "Transform your 1980s pool into a smartphone-controlled oasis. We retrofit existing equipment with energy-efficient variable speed pumps and saltwater-compatible automation systems.\n\nParticularly useful for snowbirds maintaining second homes - our remote monitoring alerts you to issues before they become expensive repairs. Fort Lauderdale's older pool systems often lack proper timers; we install sunrise/sunset programming to match our consistent daylight hours. All upgrades include surge protection crucial for Florida's lightning storms.",
+        "process": [
+          "Step 1: Assess existing equipment compatibility",
+          "Step 2: Install variable speed pump with magnetic drive",
+          "Step 3: Connect automation hub with weather tracking",
+          "Step 4: Train homeowners on app controls and alerts"
+        ],
+        "benefits": [
+          "Cuts pump energy use by up to 80%",
+          "Allows remote monitoring from northern states",
+          "Automatically adjusts for rainstorms",
+          "Extends equipment life with soft starts"
+        ],
+        "faq": [
+          {
+            "question": "Will this work with my old pool wiring?",
+            "answer": "We typically need to upgrade subpanels for homes built before 1990, but can often reuse conduit runs."
+          },
+          {
+            "question": "Do you offer hurricane mode settings?",
+            "answer": "Yes, our systems can automatically lower water levels when tropical storm warnings are issued."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcella R.",
+        "rating": 5,
+        "service": "Hurricane Preparedness",
+        "text": "After Irma destroyed our neighbor's pool equipment, we hired Apex to secure ours. Their aircraft cable system held through Category 3 winds last season. Worth every penny for peace of mind.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Theo B.",
+        "rating": 5,
+        "service": "Saltwater Pool Maintenance",
+        "text": "Our Bal Harbour condo's salt system kept failing under other companies. Apex diagnosed the issue - salt creep from ocean spray was shorting the control board. Their marine-grade enclosure solution has worked flawlessly for 18 months.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Gabriela C.",
+        "rating": 5,
+        "service": "Glass Tile Cleaning",
+        "text": "The team restored our 1926 Coral Gables pool's original Venetian glass mosaic to museum quality. They even sourced matching tiles for three damaged pieces we thought were irreplaceable.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Smart Pool Upgrades",
+        "text": "Now I can check my Weston pool chemistry from Boston and get alerts if the pH drifts. The variable speed pump cut our electric bill by $120/month - it paid for itself in one season.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Gunite Repair",
+        "text": "Found a crack under our diving board that three other companies missed. Apex's underwater patching held through last summer's heavy rains without a drop in water level.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Pool Deck Resurfacing",
+        "text": "Our Brickell rooftop pool deck used to burn feet by 10am. The new cool-surface coating stays comfortable all day and looks just like the original terrazzo.",
+        "date": "2024-08-21"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Miami Pool Service | Hurricane-Ready Maintenance",
+        "description": "Specialized pool care for South Florida's salt air and storms. Serving Miami-Dade and Broward since 2012."
+      },
+      "about": {
+        "title": "About Our Miami Pool Service Company",
+        "description": "Local pool experts understanding Florida's unique challenges - from corrosion to hurricane prep across Miami and Fort Lauderdale."
+      },
+      "services": {
+        "title": "Miami Pool Services | Saltwater & Storm Prep",
+        "description": "Specialized maintenance and repairs for South Florida pools facing salt air, hard water, and hurricane season."
+      },
+      "contact": {
+        "title": "Contact Miami Pool Service Experts",
+        "description": "Schedule service or get answers about pool care in Miami, Fort Lauderdale, Boca Raton and surrounding areas."
+      },
+      "reviews": {
+        "title": "Miami Pool Service Reviews | Apex Pool Service",
+        "description": "See what South Florida homeowners say about our pool maintenance, hurricane prep, and repair services."
+      },
+      "service-areas": {
+        "title": "Pool Service Areas | Miami to West Palm Beach",
+        "description": "Serving all South Florida communities from Miami Beach to Boca Raton with specialized pool care."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Lauderdale",
+        "slug": "fort-lauderdale-fl",
+        "state": "FL",
+        "content": "Apex Pool Service is proud to serve the vibrant community of Fort Lauderdale, where waterfront living is a way of life. With a population of around 183,000, this city is known for its 1960s-70s waterfront homes, many of which feature stunning pools that require year-round maintenance. Our team specializes in keeping these pools pristine, even in the challenging heat and humidity that defines Fort Lauderdale's climate. Whether it's routine cleaning, chemical balancing, or equipment repairs, we ensure your pool remains a refreshing oasis. Fort Lauderdale's unique architectural charm and coastal lifestyle make pool ownership a central feature of home life here. We understand the specific needs of waterfront properties, including saltwater pool maintenance and hurricane preparedness, to keep your pool in top condition no matter the season.",
+        "localContext": "Fort Lauderdale is renowned for its 1960s-70s waterfront homes and a climate that demands year-round pool maintenance.",
+        "nearbyAreas": [
+          "Hollywood",
+          "Pompano Beach",
+          "Plantation"
+        ]
+      },
+      {
+        "city": "Coral Springs",
+        "slug": "coral-springs-fl",
+        "state": "FL",
+        "content": "Coral Springs, a meticulously planned community with a population of approximately 134,000, is a prime location for Apex Pool Service. The city's 1980s-90s homes often feature beautifully designed pools that are central to family life and outdoor entertaining. Our services cater to the needs of these well-maintained neighborhoods, offering everything from weekly cleanings to seasonal openings and closings. The year-round heat and humidity in Coral Springs mean pools are in constant use, requiring reliable and consistent care. We take pride in helping homeowners preserve their pools' longevity and aesthetic appeal, ensuring they remain a highlight of their properties. Coral Springs' family-friendly atmosphere and community-oriented lifestyle make pool ownership a cherished part of daily life here.",
+        "localContext": "Coral Springs is characterized by its 1980s-90s planned community homes and a climate that keeps pools in use year-round.",
+        "nearbyAreas": [
+          "Parkland",
+          "Tamarac",
+          "Margate"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "slug": "pembroke-pines-fl",
+        "state": "FL",
+        "content": "Pembroke Pines, with its population of around 172,000, is a thriving suburban community where Apex Pool Service excels in providing top-tier pool maintenance. The city's 1990s planned developments often include spacious backyard pools that serve as gathering spots for families and friends. Our team is well-versed in addressing the unique challenges posed by Pembroke Pines' year-round heat and humidity, ensuring your pool stays clean, safe, and inviting. From algae prevention to filter maintenance, we handle all aspects of pool care with precision and professionalism. Pembroke Pines' emphasis on outdoor living and recreation makes pool ownership a key feature of the local lifestyle. Trust Apex Pool Service to keep your pool in perfect condition, no matter the weather.",
+        "localContext": "Pembroke Pines is known for its 1990s planned developments and a climate that necessitates year-round pool care.",
+        "nearbyAreas": [
+          "Miramar",
+          "Hollywood",
+          "Weston"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "slug": "boca-raton-fl",
+        "state": "FL",
+        "content": "Apex Pool Service is honored to serve the upscale community of Boca Raton, where luxury waterfront estates are the norm. With a population of about 100,000, this city boasts some of the most exquisite pools in South Florida, often integrated into stunning outdoor living spaces. Our expertise in high-end pool maintenance ensures that your pool remains a flawless centerpiece of your property, despite the relentless heat and humidity. We offer bespoke services tailored to the needs of Boca Raton's discerning homeowners, including advanced water chemistry management and premium equipment upgrades. Boca Raton's opulent lifestyle and coastal beauty make pool ownership an essential part of the experience here. Let Apex Pool Service elevate your pool's performance and aesthetics to match the elegance of your home.",
+        "localContext": "Boca Raton is synonymous with luxury waterfront estates and a climate that demands meticulous pool maintenance.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Deerfield Beach",
+          "Highland Beach"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "slug": "west-palm-beach-fl",
+        "state": "FL",
+        "content": "West Palm Beach, with its rich history and population of roughly 120,000, is a cherished service area for Apex Pool Service. The city's 1920s-50s historic homes often feature classic pools that require specialized care to preserve their charm and functionality. Our team is adept at navigating the challenges posed by West Palm Beach's year-round heat and humidity, providing reliable maintenance and repairs to keep your pool in pristine condition. Whether it's restoring vintage pool tiles or modernizing outdated equipment, we blend tradition with innovation to meet your needs. West Palm Beach's timeless appeal and vibrant culture make pool ownership a delightful aspect of life here. Trust Apex Pool Service to honor the legacy of your pool while ensuring it meets contemporary standards.",
+        "localContext": "West Palm Beach is celebrated for its 1920s-50s historic homes and a climate that requires diligent pool upkeep.",
+        "nearbyAreas": [
+          "Palm Beach",
+          "Lake Worth Beach",
+          "Riviera Beach"
+        ]
+      },
+      {
+        "city": "Hollywood",
+        "slug": "hollywood-fl",
+        "state": "FL",
+        "content": "Hollywood, FL, with its diverse population and coastal charm, is a key service area for Apex Pool Service. The city's mix of mid-century homes and modern residences often feature pools that are central to outdoor living. Our team is skilled at maintaining these pools in Hollywood's year-round heat and humidity, ensuring they remain clean and safe for enjoyment. From routine cleanings to equipment repairs, we provide comprehensive services tailored to the needs of Hollywood's homeowners. The city's vibrant arts scene and beachfront lifestyle make pool ownership a popular choice here. Let Apex Pool Service handle the details so you can focus on enjoying your pool to the fullest.",
+        "localContext": "Hollywood offers a blend of mid-century homes and modern residences, with pools that thrive in its warm climate.",
+        "nearbyAreas": [
+          "Fort Lauderdale",
+          "Dania Beach",
+          "Pembroke Pines"
+        ]
+      },
+      {
+        "city": "Delray Beach",
+        "slug": "delray-beach-fl",
+        "state": "FL",
+        "content": "Delray Beach, a coastal gem with a population of around 70,000, is a proud service area for Apex Pool Service. The city's charming neighborhoods often feature pools that complement its relaxed, beachy vibe. Our team is well-equipped to handle the demands of Delray Beach's year-round heat and humidity, offering services that keep your pool in top shape. Whether it's saltwater pool maintenance or seasonal adjustments, we provide personalized care to meet your needs. Delray Beach's lively downtown and scenic coastline make pool ownership a natural extension of the local lifestyle. Trust Apex Pool Service to maintain your pool with the same care and attention you give your home.",
+        "localContext": "Delray Beach is known for its coastal charm and pools that benefit from expert care in a warm climate.",
+        "nearbyAreas": [
+          "Boca Raton",
+          "Boynton Beach",
+          "Highland Beach"
+        ]
+      },
+      {
+        "city": "Pompano Beach",
+        "slug": "pompano-beach-fl",
+        "state": "FL",
+        "content": "Pompano Beach, with its laid-back atmosphere and population of approximately 115,000, is a valued service area for Apex Pool Service. The city's mix of older homes and newer developments often includes pools that require consistent maintenance due to the year-round heat and humidity. Our team specializes in keeping these pools clean, safe, and ready for enjoyment, no matter the season. From algae control to pump repairs, we offer a full range of services to meet the needs of Pompano Beach homeowners. The city's fishing pier and beachfront parks make pool ownership a popular choice for residents. Let Apex Pool Service take the hassle out of pool maintenance so you can focus on relaxation.",
+        "localContext": "Pompano Beach features a mix of older and newer homes, with pools that need regular care in its warm climate.",
+        "nearbyAreas": [
+          "Fort Lauderdale",
+          "Deerfield Beach",
+          "Lighthouse Point"
+        ]
+      },
+      {
+        "city": "Boynton Beach",
+        "slug": "boynton-beach-fl",
+        "state": "FL",
+        "content": "Boynton Beach, a thriving community with a population of around 80,000, is a key service area for Apex Pool Service. The city's diverse housing stock, from mid-century homes to modern estates, often includes pools that are essential for beating the year-round heat and humidity. Our team is dedicated to providing top-notch maintenance and repair services to keep your pool in optimal condition. Whether it's balancing chemicals or upgrading equipment, we tailor our services to fit your specific needs. Boynton Beach's vibrant arts district and waterfront parks make pool ownership a natural fit for the local lifestyle. Trust Apex Pool Service to keep your pool sparkling and inviting all year long.",
+        "localContext": "Boynton Beach offers a diverse range of homes, many with pools that require expert care in its warm climate.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Lake Worth Beach",
+          "Lantana"
+        ]
+      },
+      {
+        "city": "Deerfield Beach",
+        "slug": "deerfield-beach-fl",
+        "state": "FL",
+        "content": "Deerfield Beach, with its scenic coastline and population of approximately 86,000, is a cherished service area for Apex Pool Service. The city's mix of older and newer homes often features pools that are a focal point of outdoor living. Our team is adept at maintaining these pools in Deerfield Beach's year-round heat and humidity, ensuring they remain clean and functional. From weekly cleanings to seasonal maintenance, we provide reliable services tailored to your needs. Deerfield Beach's pier and waterfront parks make pool ownership a popular choice for residents. Let Apex Pool Service handle the upkeep so you can enjoy your pool without worry.",
+        "localContext": "Deerfield Beach is known for its scenic coastline and pools that thrive in its warm, humid climate.",
+        "nearbyAreas": [
+          "Boca Raton",
+          "Pompano Beach",
+          "Lighthouse Point"
+        ]
+      },
+      {
+        "city": "Lake Worth Beach",
+        "slug": "lake-worth-beach-fl",
+        "state": "FL",
+        "content": "Lake Worth Beach, a quirky and vibrant community with a population of around 42,000, is a proud service area for Apex Pool Service. The city's eclectic mix of historic and contemporary homes often includes pools that require specialized care. Our team is skilled at maintaining these pools in Lake Worth Beach's year-round heat and humidity, offering services that keep them in top condition. From vintage pool restoration to modern upgrades, we cater to the unique needs of local homeowners. Lake Worth Beach's artistic vibe and beachfront charm make pool ownership a delightful aspect of life here. Trust Apex Pool Service to keep your pool in perfect shape, no matter the season.",
+        "localContext": "Lake Worth Beach features an eclectic mix of homes, many with pools that need expert care in its warm climate.",
+        "nearbyAreas": [
+          "West Palm Beach",
+          "Boynton Beach",
+          "Lantana"
+        ]
+      },
+      {
+        "city": "Wellington",
+        "slug": "wellington-fl",
+        "state": "FL",
+        "content": "Wellington, an equestrian-focused community with a population of approximately 65,000, is a valued service area for Apex Pool Service. The city's luxurious estates often feature expansive pools that are central to outdoor entertaining. Our team is experienced in maintaining these high-end pools in Wellington's year-round heat and humidity, ensuring they remain pristine and functional. From custom water features to advanced filtration systems, we provide tailored services to meet your needs. Wellington's upscale lifestyle and equestrian events make pool ownership a natural fit for residents. Let Apex Pool Service handle the details so you can enjoy your pool to the fullest.",
+        "localContext": "Wellington is renowned for its luxurious estates and pools that require expert care in its warm climate.",
+        "nearbyAreas": [
+          "Royal Palm Beach",
+          "Loxahatchee",
+          "West Palm Beach"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "saltwater-pool-maintenance": "/images/service-saltwater-pool-maintenance.webp",
+      "hurricane-preparedness": "/images/service-hurricane-preparedness.webp",
+      "pool-deck-resurfacing": "/images/service-pool-deck-resurfacing.webp",
+      "smart-pool-upgrades": "/images/service-smart-pool-upgrades.webp",
+      "gunite-repair": "/images/service-gunite-repair.webp",
+      "glass-tile-cleaning": "/images/service-glass-tile-cleaning.webp"
+    },
+    "servicesResponsive": {
+      "saltwater-pool-maintenance": {
+        "src": "/images/service-saltwater-pool-maintenance.webp",
+        "srcset": "/images/service-saltwater-pool-maintenance-400w.webp 400w, /images/service-saltwater-pool-maintenance-800w.webp 800w, /images/service-saltwater-pool-maintenance-1200w.webp 1200w, /images/service-saltwater-pool-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-preparedness": {
+        "src": "/images/service-hurricane-preparedness.webp",
+        "srcset": "/images/service-hurricane-preparedness-400w.webp 400w, /images/service-hurricane-preparedness-800w.webp 800w, /images/service-hurricane-preparedness-1200w.webp 1200w, /images/service-hurricane-preparedness.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-deck-resurfacing": {
+        "src": "/images/service-pool-deck-resurfacing.webp",
+        "srcset": "/images/service-pool-deck-resurfacing-400w.webp 400w, /images/service-pool-deck-resurfacing-800w.webp 800w, /images/service-pool-deck-resurfacing-1200w.webp 1200w, /images/service-pool-deck-resurfacing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-pool-upgrades": {
+        "src": "/images/service-smart-pool-upgrades.webp",
+        "srcset": "/images/service-smart-pool-upgrades-400w.webp 400w, /images/service-smart-pool-upgrades-800w.webp 800w, /images/service-smart-pool-upgrades-1200w.webp 1200w, /images/service-smart-pool-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gunite-repair": {
+        "src": "/images/service-gunite-repair.webp",
+        "srcset": "/images/service-gunite-repair-400w.webp 400w, /images/service-gunite-repair-800w.webp 800w, /images/service-gunite-repair-1200w.webp 1200w, /images/service-gunite-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "glass-tile-cleaning": {
+        "src": "/images/service-glass-tile-cleaning.webp",
+        "srcset": "/images/service-glass-tile-cleaning-400w.webp 400w, /images/service-glass-tile-cleaning-800w.webp 800w, /images/service-glass-tile-cleaning-1200w.webp 1200w, /images/service-glass-tile-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
